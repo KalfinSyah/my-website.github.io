@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 
-<html>
+<html class="
+scroll-smooth
+">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -36,6 +38,8 @@
                 "src="./img/hamburger-menu.png" alt="">
 
                 <a class="
+                nav-name
+
                 font-bold
                 hover:text-sky-600
                 h-fit
@@ -46,6 +50,8 @@
             </div>
 
             <div class="
+            nav-option
+
             max-md:flex max-md:flex-col
             text-slate-400
             ">
@@ -99,13 +105,47 @@
             </div>
         </nav>
 
+        <!-- dark mode -->
+        <section class="
+        for-theme
+
+        flex flex-row justify-center place-items-center gap-2
+        mt-20 mb-5 mx-auto
+        w-[85vw]
+        ">
+            <h3 class="
+            theme-title
+
+            font-bold
+            text-gray-400
+            ">Theme </h3>
+
+            <div class="
+            slider
+
+            bg-black
+            h-fit
+            rounded-full
+            transition-all
+            w-10
+            ">
+                <img class="
+                balls
+
+                duration-500
+                rounded-full
+                w-[42.5%]
+                " src="./img/dark-mode.png" alt="">
+            </div>
+        </section>
+
         <!-- hero -->
         <section class="
         grid grid-cols-[60vw_25vw]
         gap-5
         justify-center
-        mt-20
         max-sm:grid-cols-[85vw]
+        mx-auto
         " id="home">
             <div class="
             mt-3
@@ -123,6 +163,8 @@
                 My name is</h4>
 
                 <h1 class="
+                name
+
                 font-bold
                 text-3xl
                 text-zinc-400
